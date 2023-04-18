@@ -1,18 +1,11 @@
 body{
-  width: 900px;
-  margin: 50px 0px 0px 220px;
-  background-color: #282a36;
-  /* FUNDO BRANCO NO MEIO COR:rgb(240, 240, 240); */
-} 
-#nome{
-  padding: 3px;
-  border: 10px solid #282a36; 
-  background-color: rgb(240, 240, 240);
-  font-style: italic;
-
-}
-
- div{
-  padding: 20px;
+  width: 700px;
+  margin: 20px 0px 50px 100px;
   background-color: rgb(240, 240, 240);
 }
+p{
+  margin-left: 20px;
+}
+  h1, h2, h3{
+    color: rgb(15, 29, 41);
+    }
