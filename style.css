@@ -27,13 +27,14 @@ body{
 #cabeca{
   list-style: none;
   max-width: 100%;
-  padding: 15px;
+
   background-color:  rgb(247, 247, 247)
 
 }
 #cabeca li{
   display: inline;
-  padding: 30px;
+  padding: 45px;
+  
   
 }
 
@@ -43,6 +44,13 @@ body{
   color:rgb(0, 0, 0);
   display: inline-block;
 }
+
+#cabeca li a:hover{
+  background-color: black;
+  color: white;
+
+}
+
 .menu{
   margin-left: 20%;
   margin-right: 20%;
@@ -50,13 +58,31 @@ body{
 }
 
 #corp li{
-  
   display: inline;
-
   padding-left: 120px;
 }
 
 #corp li a{
   color:rgb(0, 0, 0);
+  text-decoration: none;
   display: inline-block;
+}
+
+#corp li a:hover{
+  color: blue;
+
+}
+
+#sumario li{
+  display: inline;
+}
+
+#sumario li a{
+  text-decoration: none;
+  color:rgb(0, 0, 0);
+  display: inline-block;
+}
+
+#sumario li a:hover{
+  color: blue;
 }
