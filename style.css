@@ -1,6 +1,62 @@
-#nome{
-  width: 700px;
-  margin: 20px 0px 50px 100px;
-  background-color: rgb(21, 13, 85);
+body{
+
+    height: 100%;
+    margin: 0;
+  font-family:Verdana, Geneva, sans-serif;
+  font-size:12px;
+  background-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+}
+
+
+.materia{
+  height: 60px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+  padding: 15px;
+
+}
+*/
+
+
+#cabecalho{
+  background-color: black;
+
+}
+#cabeca{
+  list-style: none;
+  max-width: 100%;
+  padding: 15px;
+  background-color:  rgb(247, 247, 247)
+
+}
+#cabeca li{
+  display: inline;
+  padding: 30px;
   
+}
+
+#cabeca li a{
+  text-decoration: none;
+  padding: 10px;
+  color:rgb(0, 0, 0);
+  display: inline-block;
+}
+.menu{
+  margin-left: 20%;
+  margin-right: 20%;
+
+}
+
+#corp li{
+  
+  display: inline;
+
+  padding-left: 120px;
+}
+
+#corp li a{
+  color:rgb(0, 0, 0);
+  display: inline-block;
 }
