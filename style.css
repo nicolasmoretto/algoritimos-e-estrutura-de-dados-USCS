@@ -27,8 +27,7 @@ body{
 #cabeca{
   list-style: none;
   max-width: 100%;
-
-  background-color:  rgb(247, 247, 247)
+  background-color:  rgb(247, 247, 247);
 
 }
 #cabeca li{
@@ -52,14 +51,15 @@ body{
 }
 
 .menu{
-  margin-left: 20%;
-  margin-right: 20%;
-
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: rgb(247, 247, 247);
 }
 
 #corp li{
-  display: inline;
-  padding-left: 120px;
+    list-style-type:none;
 }
 
 #corp li a{
@@ -70,7 +70,6 @@ body{
 
 #corp li a:hover{
   color: blue;
-
 }
 
 #sumario li{
