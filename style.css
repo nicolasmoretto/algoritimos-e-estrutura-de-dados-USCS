@@ -1,137 +1,137 @@
 body{
 
-    height: 100%;
-    margin: 0;
-  font-family:Verdana, Geneva, sans-serif;
-  font-size: 17px; 
-  background-color: rgb(255, 255, 255);
-  box-sizing: border-box;
+  height: 100%;
+  margin: 0;
+font-family:Verdana, Geneva, sans-serif;
+font-size: 17px; 
+background-color: rgb(255, 255, 255);
+box-sizing: border-box;
 }
 
 
 .materia{
-  height: 60px;
-  color: rgb(0, 0, 0);
-  background-color: rgb(255, 255, 255);
-  margin: 0 auto;
-  padding: 15px;
+height: 60px;
+color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+margin: 0 auto;
+padding: 15px;
 
 }
 */
 
 
 #cabecalho{
-  background-color: black;
+background-color: black;
 
 }
 #cabeca{
-  list-style: none;
-  max-width: 100%;
-  background-color:  rgb(247, 247, 247);
+list-style: none;
+max-width: 100%;
+background-color:  rgb(247, 247, 247);
 
 }
 #cabeca li{
-  display: inline;
-  padding: 45px;
-  
-  
+display: inline;
+padding: 45px;
+
+
 }
 
 #cabeca li a{
-  text-decoration: none;
-  padding: 10px;
-  color:rgb(0, 0, 0);
-  display: inline-block;
+text-decoration: none;
+padding: 10px;
+color:rgb(0, 0, 0);
+display: inline-block;
 }
 
 #cabeca li a:hover{
-  background-color: black;
-  color: white;
+background-color: black;
+color: white;
 
 }
 
 .menu{
-  margin-left: 15%;
-  margin-right: 15%;
-  padding-left: 5%;
-  padding-right: 5%;
-  background-color: rgb(247, 247, 247);
+margin-left: 15%;
+margin-right: 15%;
+padding-left: 5%;
+padding-right: 5%;
+background-color: rgb(247, 247, 247);
 }
 
 #corp li{
-    list-style-type:none;
+  list-style-type:none;
 }
 
 #corp li a{
-  color:rgb(0, 0, 0);
-  text-decoration: none;
-  display: inline-block;
+color:rgb(0, 0, 0);
+text-decoration: none;
+display: inline-block;
 }
 
 #corp li a:hover{
-  color: blue;
+color: blue;
 }
 
 #sumario li{
-  display: inline;
+display: inline;
 }
 
 #sumario li a{
-  text-decoration: none;
-  color:rgb(0, 0, 0);
-  display: inline-block;
+text-decoration: none;
+color:rgb(0, 0, 0);
+display: inline-block;
 }
 
 #sumario li a:hover{
-  color: blue;
+color: blue;
 }
- .footer{
-    width: 100%;
-    background-color: #d0d0d5;
-    display: flex;
-    color: #000000;
-  }
+.footer{
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  color: #ffffff;
+}
+
+.informations{
+  width: 100%;
+  height: 200px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  color: #ffffff;
+  padding-left: 3%;
+  padding-top: 3%;
+  padding-bottom: 0;
+}
+.a{
+  padding-right: 20%;
+}
+
+.a a{
+  color: #ffffff;
+  background-color: rgb(0, 0, 0);
+}
+.b{
+  width: 180px;
+  height: 180px;
+  border-radius: 100%;
+ 
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthumbs.dreamstime.com%2Fb%2Flinha-geom%25C3%25A9trica-simples-vetor-do-nan%25C3%25B4metro-da-letra-abstrata-logotipo-conceito-de-projeto-luxuoso-elegante-incomum-original-149232884.jpg&f=1&nofb=1&ipt=3a2bb29aebc011c2abaccde7bb4afd0292f113729540ae805244aa9b0e5d8fdc&ipo=images");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter:brightness(2);
   
-  .informations{
-    width: 100%;
-    height: 200px;
-    background-color: #d0d0d5;
-    display: flex;
-    color: #000000;
-    padding-left: 3%;
-    padding-top: 3%;
-    padding-bottom: 0;
-  }
-  .a{
-    padding-right: 20%;
-  }
+}
 
-  .a a{
-    color: #000000;
-    background-color: #d0d0d5;
-  }
-  .b{
-    width: 180px;
-    height: 180px;
-    border-radius: 100%;
-   
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(0, 0, 0);
-    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthumbs.dreamstime.com%2Fb%2Flinha-geom%25C3%25A9trica-simples-vetor-do-nan%25C3%25B4metro-da-letra-abstrata-logotipo-conceito-de-projeto-luxuoso-elegante-incomum-original-149232884.jpg&f=1&nofb=1&ipt=3a2bb29aebc011c2abaccde7bb4afd0292f113729540ae805244aa9b0e5d8fdc&ipo=images");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    filter:brightness(2);
-    
-  }
+.c{
+  padding-left: 10%;
+  padding-right: 2%;
+}
 
-  .c{
-    padding-left: 10%;
-    padding-right: 2%;
-  }
-
-  .c a{
-    color: #000000;
-    background-color: #d0d0d5;
-  } 
+.c a{
+  color: #ffffff;
+  background-color: rgb(0, 0, 0);
+} 
