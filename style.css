@@ -4,7 +4,7 @@ body{
   margin: 0;
 font-family:Verdana, Geneva, sans-serif;
 font-size: 17px; 
-background-color: rgb(255, 255, 255);
+background-color: rgb(247, 247, 247);
 box-sizing: border-box;
 }
 
@@ -55,7 +55,7 @@ margin-left: 15%;
 margin-right: 15%;
 padding-left: 5%;
 padding-right: 5%;
-background-color: rgb(247, 247, 247);
+background-color: rgb(255, 255, 255);
 }
 
 #corp li{
